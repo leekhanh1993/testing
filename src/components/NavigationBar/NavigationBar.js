@@ -37,22 +37,13 @@ class NavigationBar extends Component {
                 <NavItem>
                   <NavLink to="#"><a style={{fontWeight: "bold"}}>Illustrations</a></NavLink>
                 </NavItem>
-                <NavItem>
-                  <NavLink to="#"><a style={{fontWeight: "bold"}}>Video</a></NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink to="#"><a style={{fontWeight: "bold"}}>Audio</a></NavLink>
-                </NavItem>
               </NavbarNav>
               <NavbarNav right>
                 <NavItem>
-                  <NavLink to="#"><Fa icon="facebook" /></NavLink>
+                  <NavLink to="#"><a style={{fontWeight: "bold"}}><Fa icon="user-plus" size="lg" className="mr-1"/>Register</a></NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink to="#"><Fa icon="twitter" /></NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink to="#"><Fa icon="instagram" /></NavLink>
+                  <NavLink to="#"><a style={{fontWeight: "bold"}}><Fa icon="user-circle-o" size="lg" className="mr-1"/>Login</a></NavLink>
                 </NavItem>
               </NavbarNav>
             </Collapse>

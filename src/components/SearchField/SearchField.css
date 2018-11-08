@@ -16,16 +16,19 @@
     padding: 15px;
     font-size: 17px;
     border: none;
+    border-right: none;
     float: left;
     width: 80%;
     background: white;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
   }
   
 .centered input[type=text]:hover {
-    background: #f1f1f1;
+    background: white;
   }
 .centered input[type=text]:focus {
-    border: none;
+    outline: none;
   }
 /* Style the submit button */
 .centered button {
@@ -35,12 +38,16 @@
     background: #ddd;
     font-size: 17px;
     border: none;
+    border-left: none;
     cursor: pointer;
+    background-color: white;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
   }
   
 .centered button:hover {
-    background: #bbb;
+    background: white;
   }
 .centered button:focus {
-    border: none;
+    outline: none;
   }
