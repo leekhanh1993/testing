@@ -1,0 +1,46 @@
+/* Container holding the image and the text */
+.containerSearch {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* Style the search field */
+.centered input[type=text] {
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: white;
+  }
+  
+.centered input[type=text]:hover {
+    background: #f1f1f1;
+  }
+.centered input[type=text]:focus {
+    border: none;
+  }
+/* Style the submit button */
+.centered button {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+.centered button:hover {
+    background: #bbb;
+  }
+.centered button:focus {
+    border: none;
+  }
