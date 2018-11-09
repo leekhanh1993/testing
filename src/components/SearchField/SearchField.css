@@ -13,12 +13,11 @@
 }
 /* Style the search field */
 .centered input[type=text] {
-    padding: 15px;
-    font-size: 17px;
+    padding: 17px;
+    font-size: 25px;
     border: none;
-    border-right: none;
     float: left;
-    width: 80%;
+    width: 90%;
     background: white;
     opacity: 0.9;
     filter: alpha(opacity=90);
@@ -32,13 +31,13 @@
   }
 /* Style the submit button */
 .centered button {
+    color: #807b7e;
     float: left;
-    width: 20%;
-    padding: 15px;
+    width: 10%;
+    padding: 17px;
     background: #ddd;
-    font-size: 17px;
+    font-size: 25px;
     border: none;
-    border-left: none;
     cursor: pointer;
     background-color: white;
     opacity: 0.9;

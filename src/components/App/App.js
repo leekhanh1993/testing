@@ -2,13 +2,15 @@ import React, { Component } from 'react';
 import './App.css';
 import NavigationBar from '../NavigationBar/NavigationBar'
 import SearchField from '../SearchField/SearchField'
+import FooterPage from '../Footer/FooterPage'
 
 class App extends Component {
   render() {
     return (
-      <div style={{height: 13000}}>
+      <div>
         <NavigationBar/>
         <SearchField/>
+        <FooterPage/>
       </div>
     );
   }
