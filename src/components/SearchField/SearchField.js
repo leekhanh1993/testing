@@ -6,7 +6,7 @@ import { Fa, Button, FormInline, Input } from 'mdbreact'
 class SearchField extends Component {
     render() {
         return (
-            <div className="containerSearch" style={{ marginTop: 50 }}>
+            <div className="containerSearch">
                 <img src={demoimage} className="mx-auto d-block" alt="demoimage" width="100%" />
                 <div className="centered" style={{ width: "60%" }}>
                         <input type="text" placeholder="Search.." name="search" />

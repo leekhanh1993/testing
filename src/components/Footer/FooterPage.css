@@ -1,0 +1,14 @@
+.footerpage{
+    padding: 60px 0px 0px 0px;
+}
+.iconsocial .fa{
+    background-color: grey;
+    width: 50px;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 5px;
+    border-radius: 5%;
+    opacity: 0.1;
+}
