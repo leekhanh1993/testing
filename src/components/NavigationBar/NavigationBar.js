@@ -37,6 +37,9 @@ class NavigationBar extends Component {
                 <NavItem>
                   <NavLink to="#"><a style={{fontWeight: "bold"}}>Illustrations</a></NavLink>
                 </NavItem>
+                <NavItem>
+                  <NavLink to="#"><a style={{fontWeight: "bold"}}>Vectors</a></NavLink>
+                </NavItem>
               </NavbarNav>
               <NavbarNav right>
                 <NavItem>

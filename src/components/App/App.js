@@ -3,6 +3,7 @@ import './App.css';
 import NavigationBar from '../NavigationBar/NavigationBar'
 import SearchField from '../SearchField/SearchField'
 import FooterPage from '../Footer/FooterPage'
+import Content from '../Content/Content'
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
       <div className="App">
         <NavigationBar/>
         <SearchField/>
+        <Content/>
         <FooterPage/>
       </div>
     );

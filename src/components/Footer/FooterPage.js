@@ -13,71 +13,45 @@ class FooterPage extends Component {
                             <img src={logo} height="50" />
                         </Col>
                         <Col md="2">
-                            <h5 className="title">Learn More</h5>
-                            <ul>
-                                <li className="list-unstyled">
-                                    <a href="#!">Promo codes</a>
-                                </li>
-                                <li className="list-unstyled">
-                                    <a href="#!">Link 2</a>
-                                </li>
-                                <li className="list-unstyled">
-                                    <a href="#!">License information</a>
-                                </li>
-                                <li className="list-unstyled">
-                                    <a href="#!">Legal / Privacy</a>
-                                </li>
-                            </ul>
+                            <div className="blocklink">
+                                <h5>Learn More</h5>
+                                <a href="#">Promo codes</a>
+                                <a href="#">License information</a>
+                                <a href="#">Legal / Privacy</a>
+                            </div>
                         </Col>
                         <Col md="2">
-                            <h5 className="title">Company</h5>
-                            <ul>
-                                <li className="list-unstyled">
-                                    <a href="#!">About us</a>
-                                </li>
-                                <li className="list-unstyled">
-                                    <a href="#!">Press</a>
-                                </li>
-                                <li className="list-unstyled">
-                                    <a href="#!">Careers</a>
-                                </li>
-                                <li className="list-unstyled">
-                                    <a href="#!"></a>
-                                </li>
-                            </ul>
+                            <div className="blocklink">
+                                <h5>Company</h5>
+                                <a href="#">About us</a>
+                                <a href="#">Press</a>
+                                <a href="#">Careers</a>
+                            </div>
                         </Col>
                         <Col md="2">
-                            <h5 className="title">Support</h5>
-                            <ul>
-                                <li className="list-unstyled">
-                                    <a href="#!">0123456789</a>
-                                </li>
-                                <li className="list-unstyled">
-                                    <a href="#!">Contact us</a>
-                                </li>
-                                <li className="list-unstyled">
-                                    <a href="#!">FAQ</a>
-                                </li>
-                                <li className="list-unstyled">
-                                    <a href="#!">Site map</a>
-                                </li>
-                            </ul>
+                            <div className="blocklink">
+                                <h5>Support</h5>
+                                <a href="#">0123456789</a>
+                                <a href="#">Contact us</a>
+                                <a href="#">FAQ</a>
+                                <a href="#">Site map</a>
+                            </div>
                         </Col>
                         <Col md="3">
                             <Row>
                                 <Col>
                                     <div className="iconsocial">
-                                    <a href="#" ><span className="fa fa-facebook"/></a>
-                                    <a href="#" className="fa fa-twitter"/>
-                                    <a href="#" className="fa fa-instagram"/>
-                                    <a href="#" className="fa fa-google-plus"/>
+                                        <a href="#" className="fa fa-facebook"></a>
+                                        <a href="#" className="fa fa-twitter" />
+                                        <a href="#" className="fa fa-instagram" />
+                                        <a href="#" className="fa fa-google-plus" />
                                     </div>
                                 </Col>
                             </Row>
                         </Col>
                     </Row>
                 </Container>
-                <div className="footer-copyright text-center py-4">
+                <div className="footer-copyright text-center pt-5 pb-3">
                     <Container fluid>
                         &copy; {new Date().getFullYear()} Copyright:{" "}
                         <a href="https://www.pickframe.com"> PickFrame.com </a>
