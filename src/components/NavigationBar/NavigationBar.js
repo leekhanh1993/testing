@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './NavigationBar.css'
 import logo from '../../images/logo-white.png'
 import { Navbar, NavbarBrand, NavbarNav, NavbarToggler, Collapse, NavItem, NavLink, Fa } from 'mdbreact';
-import { BrowserRouter as Router } from 'react-router-dom';
 
 class NavigationBar extends Component {
   constructor(props) {
@@ -23,7 +22,6 @@ class NavigationBar extends Component {
     const bgNav = { backgroundColor: 'black' }
     return (
       <div>
-        <Router>
           <Navbar style={bgNav} dark expand="md" scrolling>
             <NavbarBrand href="/">
               <img src={logo} alt="logobrand" height="50" />
@@ -32,13 +30,13 @@ class NavigationBar extends Component {
             <Collapse isOpen={this.state.collapse} navbar>
               <NavbarNav left>
                 <NavItem>
-                  <NavLink to="#"><a style={{fontWeight: "bold"}}>Photos</a></NavLink>
+                  <NavLink to="/view/photos"><a style={{fontWeight: "bold"}}>Photos</a></NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink to="#"><a style={{fontWeight: "bold"}}>Illustrations</a></NavLink>
+                  <NavLink to="/view/illustrations"><a style={{fontWeight: "bold"}}>Illustrations</a></NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink to="#"><a style={{fontWeight: "bold"}}>Vectors</a></NavLink>
+                  <NavLink to="/view/vectors"><a style={{fontWeight: "bold"}}>Vectors</a></NavLink>
                 </NavItem>
               </NavbarNav>
               <NavbarNav right>
@@ -51,7 +49,6 @@ class NavigationBar extends Component {
               </NavbarNav>
             </Collapse>
           </Navbar>
-        </Router>
       </div>
     );
   }
